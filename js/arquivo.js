@@ -79,6 +79,3 @@ function MovingDot( nav ){
 }
 
 
-<li class="nav-item"> 
-<a class="nav-link active fw-bold" style="color:#5C0F8B;" aria-current="page" href="#">Voz</a>
-</li>

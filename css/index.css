@@ -106,7 +106,7 @@ text-align: center;
  bottom: 10%;
 }
 
-.jumbotron{
+.jumb{
     height: 142px;
     background-color:#FF6633 ;
 }
@@ -144,29 +144,55 @@ margin-top: 150px;
 
 #menunovo ul {
     padding:20px;
-    margin:0px;
+    margin-left:10px;
     list-style:none;
+   
 }
 
 #menunovo ul li { display: inline; }
 
 #menunovo ul li a {
-    padding: 2px 10px;
+    padding: 10px 29px;
     display: inline-block;
 
     /* visual do link */
    
-    color: #333;
+    color: #5C0F8B;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    font-size: 16px;
+ 
 }
 
 #menunovo ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
+    width: 166px;
+    height: 48px;
+    background-color:#525252;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+
 }
 
+#menunovo ul li a:active{
+    width: 166px;
+    height: 48px;
+    background-color: #5C0F8B;
+    color: #F16123;
+    font-size: 16px;
+    border: none;
+  }
+
+  hr {
+    margin:-35px;
+  }
+  
+  .hr1 {
+    border: 0;
+    border-top: 1px solid #5C0F8B;
+  }
+
+  
 
 
 .btn-1 a:after{content:""; display:block;}
@@ -209,5 +235,114 @@ margin-top: 150px;
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
+  .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.descer{
+    transform: translate(50px,90px);
+}
+
+.text-descer{
+color:#F16123;
+font-size: 26px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 30px;
+    color:#5C0F8B;
+    font-weight: bold;
+}
 
 
+figure:hover img{
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+
+.novohall{
+    background-image: url(/assets/phone.png);
+    background-size: cover;
+    height: 500px;
+}
+
+footer {
+    background: transparent linear-gradient(144deg,#5c0f8b,#301555) 0 0 no-repeat;
+    color: #FF6633;;
+    margin-top:150px;
+  }
+  
+  footer a {
+    color:#FF6633;;
+    font-size: 14px;
+    transition-duration: 0.2s;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #FF6633;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #5c0f8b;
+    margin-top: 60px;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 40px !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  
+  .social-network a.ico:hover {
+      color: #ffffff;
+  }
+  
+ 
+  #rodape {
+    width: 30%;
+    margin: 0; 
+    padding: 0;
+    transform: translate(910px,-50px);
+    float: left;
+    }
+
+    #rodape ul li {
+        display: inline-block;
+		margin: 0;
+         padding: 0px;
+		text-align: left;
+		list-style-type: none;
+		}
