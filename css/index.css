@@ -6,7 +6,8 @@
 
 /* Espaçamento do menu*/
 .nav-item {
-    margin: 0 20px;
+    margin: 0 16px;
+    font-size: 14px; ;
 }
 
 .tamanho{
@@ -201,13 +202,12 @@ margin-top: 150px;
 
 
   
-  /* The container <div> - needed to position the dropdown content */
+
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display:none;
     position: absolute;
@@ -215,25 +215,170 @@ margin-top: 150px;
     width: 100vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    transform: translateX(-19%);
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    color: #5C0F8B;
+    font-weight: bold;
+    padding: 12px 15px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(550px);
+    
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+  
+
+  .dropdown-se {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-se {
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-24%);
+  }
+  
+  .dropdown-content-se a {
+    color: #5C0F8B;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(550px);
+    
+  }
+  
+  .dropdown-se:hover .dropdown-content-se {display: block;}
+
+
+  .dropdown-te {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-te {
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-30%);
+  }
+  
+  .dropdown-content-te a {
+    color: #5C0F8B;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(550px);
+    
+  }
+  
+  .dropdown-te:hover .dropdown-content-te {display: block;}
+
+  
+  .dropdown-qua {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-qua {
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-38%);
+  }
+  
+  .dropdown-content-qua a {
+    color: #5C0F8B;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(550px);
+    
+  }
+  
+  .dropdown-qua:hover .dropdown-content-qua {display: block;}
+
+  .dropdown-qui {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-qui {
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-46%);
+  }
+  
+  .dropdown-content-qui a {
+    color: #5C0F8B;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(220px);
+    
+  }
+  
+  .dropdown-qui:hover .dropdown-content-qui {display: block;}
+
+
+  .dropdown-seis {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-seis {
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-57%);
+  }
+  
+  .dropdown-content-seis a {
+    color: #5C0F8B;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(350px);
+    
+  }
+  
+  .dropdown-seis:hover .dropdown-content-seis {display: block;}
+
+.btn-mycolor{
+background-color:  #5C0F8B;
+}
 
   .card{
     border-radius: 4px;
@@ -247,6 +392,7 @@ margin-top: 150px;
 .card:hover{
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
 }
 
 .descer{
@@ -346,3 +492,6 @@ footer {
 		text-align: left;
 		list-style-type: none;
 		}
+
+
+        
